@@ -165,6 +165,18 @@
             xsi:type="archimate:SystemSoftware"
             href="SystemSoftware_id-d2a066e41a68433cbd0b6bcf72ec4f02.xml#id-d2a066e41a68433cbd0b6bcf72ec4f02"/>
       </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="id-c18ce0e4345f45a881d35d4eff1328b3">
+        <bounds
+            x="24"
+            y="108"
+            width="133"
+            height="25"/>
+        <archimateElement
+            xsi:type="archimate:SystemSoftware"
+            href="SystemSoftware_id-27a636e7882c4838b174a0565e032c31.xml#id-27a636e7882c4838b174a0565e032c31"/>
+      </children>
       <archimateElement
           xsi:type="archimate:ApplicationCollaboration"
           href="ApplicationCollaboration_id-be9be6e662a64accaa73016c3ce36f15.xml#id-be9be6e662a64accaa73016c3ce36f15"/>
