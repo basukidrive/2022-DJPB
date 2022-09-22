@@ -6,7 +6,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-dcf8d015565b409dbe5d7bbbf76b117d"
-      targetConnections="id-6701fd79aed24c47a7dbd8ab227fde18 id-76da2370d3db48b4a4d2cc6b75c1ad3b id-768c364bf09148c48e70e38860ff96df id-0a61be4eae0446a787a7d714f0e5f653 id-e54847b074d14585a28f63e25ce6a7d7 id-508a5536259947d8ad510faadd684d83">
+      targetConnections="id-6701fd79aed24c47a7dbd8ab227fde18 id-76da2370d3db48b4a4d2cc6b75c1ad3b id-768c364bf09148c48e70e38860ff96df id-0a61be4eae0446a787a7d714f0e5f653 id-e54847b074d14585a28f63e25ce6a7d7 id-508a5536259947d8ad510faadd684d83 id-d760d0dd6c2543c7a7f363347ec9687f">
     <bounds
         x="450"
         y="384"
@@ -369,5 +369,38 @@
     <archimateElement
         xsi:type="archimate:Node"
         href="Node_id-92a3f9f88ba047fa9fbe4f62fe266463.xml#id-92a3f9f88ba047fa9fbe4f62fe266463"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-5794275931bd4ca4b2308ea8bd5bb62c">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-d760d0dd6c2543c7a7f363347ec9687f"
+        source="id-5794275931bd4ca4b2308ea8bd5bb62c"
+        target="id-dcf8d015565b409dbe5d7bbbf76b117d">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_id-bca5256d71504c2d86ec4c668961ece8.xml#id-bca5256d71504c2d86ec4c668961ece8"/>
+    </sourceConnections>
+    <bounds
+        x="924"
+        y="337"
+        width="360"
+        height="168"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-dc5ba00cca1746daaaeb41f58fc6fcdb">
+      <bounds
+          x="48"
+          y="48"
+          width="264"
+          height="60"/>
+      <archimateElement
+          xsi:type="archimate:SystemSoftware"
+          href="SystemSoftware_id-a9c097d85f3142188b61f80430ebbbfe.xml#id-a9c097d85f3142188b61f80430ebbbfe"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:TechnologyFunction"
+        href="TechnologyFunction_id-f7cc69fd30634328bc6b41aa32159747.xml#id-f7cc69fd30634328bc6b41aa32159747"/>
   </children>
 </archimate:ArchimateDiagramModel>
