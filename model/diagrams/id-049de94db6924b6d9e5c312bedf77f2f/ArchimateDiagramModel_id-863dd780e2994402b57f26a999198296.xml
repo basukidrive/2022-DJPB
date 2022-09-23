@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="1. Portofolio Aplikasi"
+    name="C.1 Portofolio Aplikasi"
     id="id-863dd780e2994402b57f26a999198296">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -52,10 +52,19 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-a33e2f0886ba4e76a7c19b68d36fba90.xml#id-a33e2f0886ba4e76a7c19b68d36fba90"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-5ade51e7a22346879531e969829f204e"
+        source="id-c19a3bbcda0d4c65bdb83fe53209f0a4"
+        target="id-cd08ad5b0eb34ea1ae196f921149130e">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-27e7cee14e894f7c9b2ea362ff245d70.xml#id-27e7cee14e894f7c9b2ea362ff245d70"/>
+    </sourceConnections>
     <bounds
         x="12"
         y="12"
-        width="457"
+        width="661"
         height="217"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -103,7 +112,7 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-e38dd3e92e71454fb5c2de819f9788a1"
         targetConnections="id-22bc1b64eb174fb585c2834932bfa816"
-        fillColor="#ff8080">
+        fillColor="#00ff00">
       <bounds
           x="12"
           y="120"
@@ -126,6 +135,20 @@
       <archimateElement
           xsi:type="archimate:ApplicationComponent"
           href="ApplicationComponent_id-18c31137f0274acd876597699f4b49fd.xml#id-18c31137f0274acd876597699f4b49fd"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-cd08ad5b0eb34ea1ae196f921149130e"
+        targetConnections="id-5ade51e7a22346879531e969829f204e"
+        fillColor="#00ff40">
+      <bounds
+          x="300"
+          y="120"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationComponent"
+          href="ApplicationComponent_id-6a8a45ebfe3e449db37d6397d1c835b1.xml#id-6a8a45ebfe3e449db37d6397d1c835b1"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
