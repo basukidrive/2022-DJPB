@@ -1,4 +1,5 @@
 <archimate:Goal
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Penyederhanaan proses bisnis pelaksanaan dan Pencairan Dana terkait Belanja Pegawai (Payroll)"
-    id="id-1b98089f832b45529774848bb5a7d03c"/>
+    id="id-1b98089f832b45529774848bb5a7d03c"
+    documentation="Kondisi sebelum penerapan gaji terpusat, karena database ada di masing-masing satker. Banyak kendala yang terjadi, seperti adanya pembayaran gaji dobel, adanya pegawai pensiun masih dibayarkan gajinya, data pegawai tidak valid, dll."/>
