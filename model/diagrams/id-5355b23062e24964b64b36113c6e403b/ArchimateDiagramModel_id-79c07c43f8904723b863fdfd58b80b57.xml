@@ -69,20 +69,11 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-ae13efd9b5954f27b24b360536875781.xml#id-ae13efd9b5954f27b24b360536875781"/>
     </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-5f151ab2cc6f440ea1ce3d2640c1e110"
-        source="id-7354918a0243453ba37fb2391314248a"
-        target="id-1798b06f26ec4286b2b355a77a1b1fd3">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_id-e1c019387e74470496260fc99a0ffc24.xml#id-e1c019387e74470496260fc99a0ffc24"/>
-    </sourceConnections>
     <bounds
         x="216"
-        y="12"
+        y="60"
         width="757"
-        height="769"/>
+        height="637"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-c22d1995159d476aac10ac163494a715"
@@ -140,8 +131,8 @@
         id="id-f890ec7019af4fe398d3c22c6a49bd44"
         targetConnections="id-f2e5a458f0b640fc8364ebca7fba10ce">
       <bounds
-          x="24"
-          y="420"
+          x="12"
+          y="336"
           width="709"
           height="73"/>
       <archimateElement
@@ -154,7 +145,7 @@
         targetConnections="id-d4f96e95c2854c17b788e5ac89871ea7">
       <bounds
           x="24"
-          y="504"
+          y="432"
           width="709"
           height="85"/>
       <archimateElement
@@ -167,25 +158,12 @@
         targetConnections="id-65bd3cc032614f858bdea5e769a83717">
       <bounds
           x="24"
-          y="600"
+          y="528"
           width="709"
           height="97"/>
       <archimateElement
           xsi:type="archimate:Contract"
           href="Contract_id-47d91f81f5054213b5b03a378319702b.xml#id-47d91f81f5054213b5b03a378319702b"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-1798b06f26ec4286b2b355a77a1b1fd3"
-        targetConnections="id-5f151ab2cc6f440ea1ce3d2640c1e110">
-      <bounds
-          x="24"
-          y="336"
-          width="709"
-          height="73"/>
-      <archimateElement
-          xsi:type="archimate:Contract"
-          href="Contract_id-d9309835101347dca11e651f777f4fee.xml#id-d9309835101347dca11e651f777f4fee"/>
     </children>
     <archimateElement
         xsi:type="archimate:Contract"
